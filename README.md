@@ -56,7 +56,7 @@ the-little-taco-shop/
 ## Features
 
 - Simple navigation menu
-- Interactive taco trivia using HTML <details> tag
+- Interactive taco trivia using HTML &lt;details&gt; tag
 - Menu with prices using HTML tables
 - Lazy-loading taco images
 - Basic inline styling for table and text elements
@@ -66,7 +66,7 @@ the-little-taco-shop/
 This project helped me:
 
 - Understand HTML structure and tags
-- Practice semantic HTML (e.g., <article>, <figure>, <summary>)
+- Practice semantic HTML (e.g., &lt;article&gt;, &lt;figure&gt;, &lt;summary&gt;)
 - Create basic navigation and tables
 - Add images and use lazy loading
 

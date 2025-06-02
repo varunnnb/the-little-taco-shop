@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Little Taco Shop</title>
+    <link rel="icon" href="/favicon.ico" />
+    <style>
+      th,
+      td,
+      caption {
+        border: 1px solid #333;
+        font-family: "Courier New", Courier, monospace;
+        border-collapse: separate;
+        padding: 0.5rem;
+      }
+      thead {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to The Little Taco Shop</h1>
+    <div id="header">
+      <ul>
+        <li><a href="#about"> About LTS</a></li>
+        <li><a href="#menu">Our Menu</a></li>
+        <li><a href="/hours.html"> Store Hours</a></li>
+        <li><a href="/contact.html"> Contact Us</a></li>
+      </ul>
+      <figure>
+        <img
+          src="/img/tacos_and_drink_400x267.png"
+          alt="Some tacos and a drink"
+          title="hot tacos with a drink"
+          loading="lazy"
+        />
+        <figcaption>Tacos and a Drink</figcaption>
+      </figure>
+    </div>
+    <hr />
+    <div id="main">
+      <article id="about">
+        <h2>About LTS</h2>
+        <p>
+          LTS was founded in 20222, Our shop was built from a
+          <strong>love of tacos</strong>🌮🌮🌮. We hope our shop adds a unique
+          and intersting place to our little town.
+        </p>
+        <h3>Taco Trivia</h3>
+        <details>
+          <summary>
+            When did the tacos first appear in the United States?
+          </summary>
+          <br />
+          Tacos first appeared in the United States in the early 1900s, with the
+          first documented mention in 1905. This coincided with Mexican migrant
+          workers moving to the Southwestern US to work on railroads, mines, and
+          other jobs. They brought their culinary traditions, including tacos,
+          with them. (Source:
+          <a
+            href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+            >Smithsonian Magazine
+          </a>
+          )
+        </details>
+      </article>
+      <hr />
+      <article id="menu">
+        <h2>Our Menu</h2>
+        <table>
+          <thead>
+            <tr>
+              <td colspan="3">Our Tacos</td>
+            </tr>
+            <th>Tacos</th>
+            <th>Qty</th>
+            <th>Price</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="3">Crunchy</th>
+              <td>1</td>
+              <td>$1.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$2.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$3.25</td>
+            </tr>
+            <tr>
+              <th rowspan="3">Soft</th>
+              <td>1</td>
+              <td>$2.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$3.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$4.50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Chips and Salsa $2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </div>
+    <div id="footer">
+      <br />
+      <a href="#">Back to Top</a>
+      <hr />
+      <p>Copyright &copy; The Little Taco Shop</p>
+    </div>
+  </body>
+</html>

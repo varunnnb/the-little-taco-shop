@@ -31,8 +31,11 @@ Explore the site and enjoy!
 
 ## Screenshots
 
+Home Page:
 ![Home Page](./screenshots/home%20page.png)
+Hours Page:
 ![Hours Page](./screenshots/hours%20page.png)
+Contact Page:
 ![Contact Page](./screenshots/contact%20page.png)
 
 ## Project Structure

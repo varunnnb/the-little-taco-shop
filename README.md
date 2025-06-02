@@ -30,7 +30,7 @@ Explore the site and enjoy!
 
 ## Screenshots
 
-![Home Page](https://ibb.co/nMjJvh7H)
+![Home Page](./img/tacos_and_drink_400x267.png)
 ![Hours Page](https://ibb.co/0pXDMJNF)
 ![Contact Page](https://ibb.co/0pXDMJNF)
 

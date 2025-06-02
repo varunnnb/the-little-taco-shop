@@ -1,10 +1,9 @@
-
 # 🌮 The Little Taco Shop
 
 Welcome to The Little Taco Shop project! This is a beginner-friendly static website created using only HTML. It features a simple taco shop homepage showcasing tacos, a menu, and fun trivia about tacos.
 
-
 ## Overview
+
 This project is a static webpage for a fictional taco shop called The Little Taco Shop (LTS). It is built with pure HTML and contains:
 
 - A homepage with navigation links
@@ -12,7 +11,9 @@ This project is a static webpage for a fictional taco shop called The Little Tac
 - A simple menu using an HTML table
 - Basic images and styling
 - Easy-to-understand structure and clean code – perfect for beginners!
+
 ## Tech Stack
+
 HTML – no CSS files, no JavaScript, just plain HTML.
 
 ## Run Locally
@@ -23,20 +24,19 @@ Clone this repository:
 ```bash
 git clone https://github.com/varunnnb/the-little-taco-shop.git
 ```
+
 Open the index.html file in any web browser (e.g., Chrome, Firefox, Edge).
 
 Explore the site and enjoy!
 
-
 ## Screenshots
 
-![Home Page](./img/tacos_and_drink_400x267.png)
-![Hours Page](https://ibb.co/0pXDMJNF)
-![Contact Page](https://ibb.co/0pXDMJNF)
-
-
+![Home Page](./screenshots/home%20page.png)
+![Hours Page](./screenshots/hours%20page.png)
+![Contact Page](./screenshots/contact%20page.png)
 
 ## Project Structure
+
 ```bash
 the-little-taco-shop/
 ├── index.html
@@ -49,6 +49,7 @@ the-little-taco-shop/
 
 
 ```
+
 ## Features
 
 - Simple navigation menu
@@ -56,7 +57,6 @@ the-little-taco-shop/
 - Menu with prices using HTML tables
 - Lazy-loading taco images
 - Basic inline styling for table and text elements
-
 
 ## Lessons Learned
 
@@ -66,7 +66,6 @@ This project helped me:
 - Practice semantic HTML (e.g., <article>, <figure>, <summary>)
 - Create basic navigation and tables
 - Add images and use lazy loading
-
 
 ## Contributing
 

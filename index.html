@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Little Taco Shop</title>
     <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
     <style>
       th,
       td,
@@ -20,28 +21,30 @@
     </style>
   </head>
   <body>
-    <h1>Welcome to The Little Taco Shop</h1>
     <div id="header">
-      <ul>
+      <ul class="nav">
         <li><a href="#about"> About LTS</a></li>
         <li><a href="#menu">Our Menu</a></li>
         <li><a href="/hours.html"> Store Hours</a></li>
         <li><a href="/contact.html"> Contact Us</a></li>
       </ul>
-      <figure>
-        <img
-          src="/img/tacos_and_drink_400x267.png"
-          alt="Some tacos and a drink"
-          title="hot tacos with a drink"
-          loading="lazy"
-        />
-        <figcaption>Tacos and a Drink</figcaption>
-      </figure>
+      <section class="headandimg">
+        <h1 class="heading">Welcome to The Little Taco Shop</h1>
+        <figure>
+          <img
+            src="/img/tacos_and_drink_400x267.png"
+            alt="Some tacos and a drink"
+            title="hot tacos with a drink"
+            loading="lazy"
+          />
+          <figcaption>Tacos and a Drink</figcaption>
+        </figure>
+      </section>
     </div>
     <hr />
     <div id="main">
       <article id="about">
-        <h2>About LTS</h2>
+        <h2 class="heading">About LTS</h2>
         <p>
           LTS was founded in 20222, Our shop was built from a
           <strong>love of tacos</strong>🌮🌮🌮. We hope our shop adds a unique
@@ -67,7 +70,7 @@
       </article>
       <hr />
       <article id="menu">
-        <h2>Our Menu</h2>
+        <h2 class="heading">Our Menu</h2>
         <table>
           <thead>
             <tr>
@@ -115,7 +118,14 @@
     </div>
     <div id="footer">
       <br />
-      <a href="#">Back to Top</a>
+      <a href="#" class="btt"
+        ><img
+          src="favicon2.ico"
+          alt="back to top"
+          width="32"
+          title="Back To Top"
+          loading="lazy"
+      /></a>
       <hr />
       <p>Copyright &copy; The Little Taco Shop</p>
     </div>
